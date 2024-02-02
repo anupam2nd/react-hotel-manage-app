@@ -3,7 +3,7 @@ import RootLayout from "../layouts/RootLayout";
 import { createBrowserRouter } from "react-router-dom";
 import Login from "../pages/Login/Login";
 
-export default Routes = createBrowserRouter([
+const Routes = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
@@ -15,3 +15,5 @@ export default Routes = createBrowserRouter([
     ],
   },
 ]);
+
+export default Routes;
